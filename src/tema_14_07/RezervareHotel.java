@@ -1,5 +1,6 @@
 package tema_14_07;
 
+// Creează o clasă RezervareHotel cu 2 constructori: unul care primește doar numeClient, altul care primește și tipCamera. Fiecare constructor afișează detaliile rezervării.
 public class RezervareHotel {
 
     String nume;
