@@ -15,7 +15,7 @@ public class Produs {
     public static void main(String[] args){
         Produs p = new Produs("XYZ254475");
         p.afiseazaDetalii();
-        
+
 //        p.codProdus = "ABC658465";
     }
 }
