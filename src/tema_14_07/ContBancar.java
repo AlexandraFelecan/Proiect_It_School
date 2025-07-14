@@ -1,5 +1,6 @@
 package tema_14_07;
 
+// Creează o clasă ContBancar cu atribut private double sold. Creează metode depunere(), retragere() și verificaSold(). Afișează un mesaj dacă retragerea e mai mare decât soldul.
 public class ContBancar {
     private double sold;
 
