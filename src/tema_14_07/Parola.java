@@ -1,5 +1,6 @@
 package tema_14_07;
 
+// Creează o metodă verificaParola(String parola) care verifică dacă parola are minim 8 caractere, cel puțin o majusculă și cel puțin un caracter special. Afișează mesajele corespunzătoare.
 public class Parola {
 
     public void verificaParola(String parola) {
