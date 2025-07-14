@@ -1,6 +1,9 @@
 package tema_14_07;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 public class Factura {
 
@@ -15,7 +18,10 @@ public class Factura {
     }
 
     public void afiseazaFactura(){
-        System.out.println("tema_14_07.Factura cu nr: " + nrFactura + " in valoare de: " + valoare +" lei din data de " + data);
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+        String formattedDate = sdf.format(date);
+        System.out.println("tema_14_07.Factura cu nr: " + nrFactura + " in valoare de: " + valoare +" lei din data de " + formattedDate);
     }
 
     public static void main(String[]args){
