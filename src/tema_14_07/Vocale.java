@@ -1,5 +1,6 @@
 package tema_14_07;
 
+// Creează o metodă numaraVocale(String text) care returnează numărul de vocale folosind for și if.
 public class Vocale {
 
     public static int numaraVocale(String text) {
