@@ -1,3 +1,5 @@
+package Exercitii;
+
 public class Animal {
     public void sunet() {
         System.out.println("Animalul scoate sun sunet");
@@ -19,7 +21,7 @@ class Caine extends Animal {
 class Pisica extends Animal {
     @Override
     public void sunet() {
-        System.out.println("Pisica miauna.");
+        System.out.println("Exercitii.Pisica miauna.");
     }
 }
 
