@@ -1,5 +1,8 @@
 package Exercitii;
 
+import java.time.LocalDate;
+import java.util.Scanner;
+
 public class Exercitii {
     //class Exercitii.Dreptunghi {
 //
@@ -583,4 +586,22 @@ public class Exercitii {
 //
 //        v1.porneste();
 //        v2.porneste();
+
+//
+//    Scanner sc = new Scanner(System.in);
+//        System.out.println("Introdu numele tau: ");
+//    String nume = sc.nextLine();
+//        System.out.println("Introdu varsta: ");
+//    int varsta = sc.nextInt();
+//        System.out.println("Salut, " + nume + " ai " + varsta +" ani.");
+//        sc.close();
+//Scanner sc = new Scanner(System.in);
+//        System.out.println("Ce varsta ai?");
+//    int varsta = sc.nextInt();
+//    int anCurent = LocalDate.now().getYear();
+//    int anNastere = anCurent - varsta;
+//
+//        System.out.println("Te-ai nascut in: " + anNastere);
+//        sc.close();
+
 }
