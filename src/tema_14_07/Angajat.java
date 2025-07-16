@@ -1,6 +1,8 @@
 package tema_14_07;
 
-// Creează o clasă Angajat cu atribute nume, functie, salariu. Creează o metodă calculeazaBonus() care oferă 10% bonus pentru „Manager”, altfel 5%. Afișează salariul total.
+// Creează o clasă Angajat cu atribute nume, functie, salariu. Creează o metodă calculeazaBonus() care oferă 10% bonus pentru „Manager”,
+// altfel 5%. Afișează salariul total.
+
 public class Angajat {
 
     String nume;
