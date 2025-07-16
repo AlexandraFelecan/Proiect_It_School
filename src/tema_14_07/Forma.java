@@ -1,6 +1,6 @@
 package tema_14_07;
 
-//Creează clasa Forma cu metoda aria(). Creează clasele Cerc și Dreptunghi care suprascriu metoda și returnează valorile calculate. Apelează aria() pentru fiecare folosind un vector de tip Forma.
+//Creează clasa Forma cu metoda aria(). Creează clasele Cerc și Exercitii.Dreptunghi care suprascriu metoda și returnează valorile calculate. Apelează aria() pentru fiecare folosind un vector de tip Forma.
 public class Forma {
     public double aria() {
         return 0;
